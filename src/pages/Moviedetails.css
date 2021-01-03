@@ -8,6 +8,13 @@
 }
 .moviedetails img {
   max-width: 500px;
+
+}
+@media (max-width:576px){
+  .moviedetails img {
+    max-width: 250px;
+  }
+  
 }
 
 .vote {
