@@ -7,11 +7,11 @@ const Moviedetails = (props) => {
     poster_path,
     title,
     vote_average,
-    adult,
+
     popularity,
     release_date,
     vote_count,
-    original_language,
+
     overview,
   } = movieDetails;
   return (

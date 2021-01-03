@@ -23,8 +23,6 @@ const Movies = () => {
     setMovies(data.results);
   };
 
-  console.log(movies);
-
   const handleOnSubmit = (e) => {
     e.preventDefault();
     if (searchParam !== '') {
