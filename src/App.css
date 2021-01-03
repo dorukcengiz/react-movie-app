@@ -7,21 +7,32 @@
 }
 
 body {
-  background-color: #22254b;
+  
   color: white;
   margin:0;
   font-family: 'Roboto Slab', sans-serif;
+}
+.container{
+  max-width: 1300px;
+  margin: 0 auto
+}
+.Wrapper{
+  background-color: #22254b;
 }
 
 header{
   background-color: #373b69;
   padding: 1rem;
   justify-content: space-between;
-  display: flex;
+  display: flex !important ;
+
+}
+header span{
+  color: white;
 }
 
 header input {
-  padding: 0.4rem;
+  padding: 0.4rem 1.5rem;
   border: 1px solid #22254b;
   outline: none;
   border-radius: 0.9rem;
@@ -30,6 +41,12 @@ header input {
   width: 160px;
  background-color: transparent;
  color: white;
+}
+/* header input ::placeholder{
+  color: white;
+} */
+header input {
+  -webkit-text-fill-color: #fff !important;
 }
 
 header input:focus{
@@ -46,7 +63,7 @@ header input:focus{
 
 
 .movie{
-  width: 300px;
+  max-width: 300px;
   margin: 1rem;
   background-color: #373b69;
   border-radius: 3px;
@@ -69,6 +86,11 @@ header input:focus{
 
 .movie-info h3{
   margin: 0;
+  color: white;
+}
+
+.movie-info span{
+  color: white;
 }
 
 

@@ -38,20 +38,27 @@ const Movies = () => {
   return (
     <div className='app'>
       <header>
-        <span>Movies</span>
-        <form onSubmit={handleOnSubmit}>
-          <input
-            className='search'
-            type='text'
-            placeholder='Search...'
-            value={searchParam}
-            onChange={handleOnChange}
-          />
-        </form>
+        <div className='container d-flex justify-content-between'>
+          <span>Movies</span>
+          <form onSubmit={handleOnSubmit}>
+            <input
+              className='search'
+              type='text'
+              placeholder='Search...'
+              value={searchParam}
+              onChange={handleOnChange}
+            />
+          </form>
+        </div>
       </header>
-      <div className='movie-container'>
-        {movies.length > 0 &&
-          movies.map((movie) => <Movie key={movie.id} movieItem={movie} />)}
+
+      <div className='container'>
+        <div className='movie-container'>
+          <div className='row justify-content-center'>
+            {movies.length > 0 &&
+              movies.map((movie) => <Movie key={movie.id} movieItem={movie} />)}
+          </div>
+        </div>
       </div>
     </div>
   );

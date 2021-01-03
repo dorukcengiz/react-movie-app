@@ -8,7 +8,7 @@ const Movie = (props) => {
   const IMG_API = 'https://image.tmdb.org/t/p/w1280';
 
   return (
-    <div className='movie'>
+    <div className='movie col-md-3 px-0'>
       <img
         src={poster_path ? IMG_API + poster_path : '/images/noimage.jpg'}
         alt={title}

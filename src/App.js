@@ -6,7 +6,7 @@ import Moviedetails from './pages/Moviedetails';
 
 const App = () => {
   return (
-    <div>
+    <div className='Wrapper'>
       <BrowserRouter>
         <Switch>
           <Route exact path='/' component={Movies} />
