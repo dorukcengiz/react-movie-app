@@ -34,6 +34,12 @@ The full project requirements can be found below.
 - JavaScript (ES6)
 - React Hooks
 
+## Used API
+- Featured:"https://api.themoviedb.org/3/discover/movie/?sort_by=popularity.desc"
+- Images:"https://image.tmdb.org/t/p/w1280/"
+- Search:"https://api.themoviedb.org/3/discover/movie?query="
+
+
 ## Usage
 
 > Clone the repository to your local machine
