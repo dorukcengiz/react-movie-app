@@ -1,9 +1,5 @@
-## Movies app w/React
 
-API STUFF
-featured:"https://api.themoviedb.org/3/discover/movie/?sort_by=popularity.desc"
-images:"https://image.tmdb.org/t/p/w1280/"
-search:"https://api.themoviedb.org/3/discover/movie?query="
+
 <h1 align="center">React Movie App</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
