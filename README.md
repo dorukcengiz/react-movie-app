@@ -39,7 +39,7 @@ The full project requirements can be found below.
 > Clone the repository to your local machine
 
 sh
-$ --https://github.com/BatuhanYilmazzz/FoodStationReact.git
+$ --https://github.com/dorukcengiz/react-movie-app
 
 > cd into the directory, install dependencies, build and start
 
